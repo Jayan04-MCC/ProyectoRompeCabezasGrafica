@@ -119,7 +119,7 @@ Se parte de **YOLOv8n** preentrenado en **COCO (80 clases)** y se reentrena para
 ```python
 results = model.train(
     data="/content/dataset/dataset.yaml",
-    epochs=50,
+    epochs=25,
     imgsz=640,
     batch=16,
     freeze=10,      # congela las primeras capas
