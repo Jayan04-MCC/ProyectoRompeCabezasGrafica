@@ -1,4 +1,4 @@
-# 🧩 Reconstrucción de Rompecabezas y Clasificación de Objetos
+#  Reconstrucción de Rompecabezas y Clasificación de Objetos
 
 Proyecto de **Visión por Computadora** que combina dos módulos independientes:
 
@@ -22,7 +22,7 @@ Desarrollado en **Google Colab** con aceleración por **GPU (NVIDIA T4)**.
 
 ---
 
-## ✨ Características
+##  Características
 
 - **Corrección automática de piezas:** detecta el contorno de cada pieza (canal alfa), calcula su orientación con `minAreaRect` y la endereza (deskew) antes de compararla.
 - **Comparación de bordes por tres técnicas:**
@@ -53,7 +53,7 @@ pip install ultralytics fiftyone scikit-learn opencv-python numpy matplotlib
 
 ---
 
-## 📂 Estructura del proyecto
+##  Estructura del proyecto
 
 ```
 Rompecabezas_y_Clasificacion_de_Objetos.ipynb
@@ -75,7 +75,7 @@ Rompecabezas_y_Clasificacion_de_Objetos.ipynb
 
 ---
 
-## 🧩 Parte 1: Reconstrucción de rompecabezas
+##  Parte 1: Reconstrucción de rompecabezas
 
 ### Entrada
 Un archivo **`imagen1.zip`** que contenga:
@@ -97,7 +97,7 @@ Un archivo **`imagen1.zip`** que contenga:
 
 ---
 
-## 🎯 Parte 2: Clasificación de objetos con YOLOv8
+##  Parte 2: Clasificación de objetos con YOLOv8
 
 Se parte de **YOLOv8n** preentrenado en **COCO (80 clases)** y se reentrena para reconocer **4 macroclases**:
 
@@ -132,7 +132,7 @@ results = model.train(
 
 ---
 
-## ▶️ Cómo ejecutar
+##  Cómo ejecutar
 
 1. Abre el notebook **`Rompecabezas_y_Clasificacion_de_Objetos.ipynb`** en Google Colab.
 2. Selecciona un entorno de ejecución con **GPU** (`Entorno de ejecución → Cambiar tipo de entorno → T4 GPU`).
@@ -143,15 +143,15 @@ results = model.train(
 
 ---
 
-## 📊 Resultados
+##  Resultados
 
 El notebook genera automáticamente:
 
-- 🧩 **Imagen reconstruida** del rompecabezas (`reconstruida_bordes.png`).
-- 📈 **Curvas de entrenamiento** (`results.png`).
-- 🔲 **Matriz de confusión** (`confusion_matrix.png`).
-- 📋 **Métricas por clase** (`mAP50` para Persona, Animal, Fruta y Objeto).
-- 💾 **Modelo entrenado** guardado en `best_yolov8n_custom.pt`.
+-  **Imagen reconstruida** del rompecabezas (`reconstruida_bordes.png`).
+-  **Curvas de entrenamiento** (`results.png`).
+-  **Matriz de confusión** (`confusion_matrix.png`).
+-  **Métricas por clase** (`mAP50` para Persona, Animal, Fruta y Objeto).
+-  **Modelo entrenado** guardado en `best_yolov8n_custom.pt`.
 
 ---
 
@@ -159,4 +159,4 @@ El notebook genera automáticamente:
 
 **Jayan Michael Cáceres Cuba**
 
-> Proyecto académico de Visión por Computadora — reconstrucción de rompecabezas y detección de objetos con Deep Learning.
+""Angela Solange Sucso Choque""
